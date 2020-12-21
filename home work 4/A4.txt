@@ -1,0 +1,11 @@
+Musab Mehadi
+mmehadi@jacobs-university.de
+
+The shortest time is observed when the elements of the array are 
+already sorted (Best case) while the worst case is seen when they 
+are written in reverse order(take longer time).
+It is also observed that as the value of K increases the time taken will decrease 
+mainly due to the fact that the separation of elements decreases.
+
+K 	2	3	4
+time  1400	900	900

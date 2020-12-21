@@ -1,0 +1,9 @@
+Although the four methods used give the same answer for the first 40 elemens the algorithms give out negative numbers for around n>50
+which needs modification by creating a class .
+
+We can also see that as time increases ,the graphs of the functions get steeper and we can generalize that the closed form is the best algoritym as we can solve for a large n for a lesser time .
+1) closed form
+2)using matrix
+3)bottom up approach
+4)recursive approach
+The recursive approach takes the longest time and hence its the least favourite algorithm.  

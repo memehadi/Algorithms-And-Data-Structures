@@ -1,0 +1,15 @@
+# Line width of the axes
+set border linewidth 1.5
+# Line styles
+set style line 1 linecolor rgb '#0060ad' linetype 1 linewidth 2
+set style line 2 linecolor rgb '#dd181f' linetype 1 linewidth 2
+set style line 3 linecolor rgb '#00ff00' linetype 1 linewidth 2
+# x and y ranges
+set xrange [0:10000]
+set log y 10
+set yrange [0:40000]
+# x and y labels
+set xlabel "Size (n)"
+set ylabel "Time in microseconds"
+# plot all functions
+plot "out1.txt" using 1:2 title "Number" with lines linestyle 1

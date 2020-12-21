@@ -1,0 +1,3 @@
+2)
+C)
+As we can see from the programm HeapSort2 is usefull as it avooids the use of the MaxHeapify algorithm wich gives our normal HeapSort algorithm a complexity of O(nlogn) where as in HeapSort2,the time complexity is O(n).

@@ -1,0 +1,8 @@
+Musab Mehadi
+mmehadi@jacobs-university.de
+
+Assuming I had 11 slots on my table,I used the formula 
+slot= ((k%11)+i*(k%9))%11
+This function is suitable as given that 11 is a prime number and
+I used a slightly less number(9) on my secondary function,
+I will have a constant interval probing and an evenly distributed Hash table.
